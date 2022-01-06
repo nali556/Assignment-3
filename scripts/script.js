@@ -33,9 +33,7 @@ ulSelector.append(newli)
 
 //12) Loop over all of the lis inside the ol tag and give them a background color of "green".
 const olSelector = document.querySelector("ol")
-console.log(olSelector)
 const listItems = olSelector.children
-console.log(listItems)
 const listArr = Array.from(listItems)
 listArr.forEach(element => element.style.color = "green")
 
